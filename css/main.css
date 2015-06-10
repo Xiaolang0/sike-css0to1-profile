@@ -1,5 +1,5 @@
 html {
-    box-sizeing:border-box;
+    box-sizing:border-box;
 }
 
 *,*:before,*:after {
@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .info-section header {
     /*padding-bottom: 80px;*/
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;;
 }
 
@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 3px;
 }
 
-.whatido header h2::after {
+.info-section header h2::after {
     /*content: "border-bottom: 3px solid black";*/
     content: "";
     display: table;
@@ -177,11 +177,23 @@ h1,h2,h3,h4,h5,h6 {
     text-align: left;
 }
 
-
-
 .third__img {
     padding-right: 50px;
 }
+
+.photos__list li {
+    list-style: none;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.photos__list img {
+    width: 100%;
+}
+
+
 
 
 
