@@ -20,3 +20,5 @@ browser-sync start --server --port 4000 --files index.html --files css/main.css
 
 It should open the url `http://localhost:4000` immediately. Editing index.html or css/main.css would cause the browser to automatically refresh.
 
+##PS：
+在sublime text3下 预览markdown使用快捷键ALT+COMMAND+P 
